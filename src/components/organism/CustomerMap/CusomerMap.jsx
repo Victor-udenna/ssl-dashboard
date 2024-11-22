@@ -30,7 +30,7 @@ const CustomerMap = () => {
   return (
     <CustomerMapStyle>
       <div className="customermap-header">
-        <Text className="customermap-header__text" value={'Revenue'} />
+        <Text className="customermap-header__text" value={'Customer Map'} />
       </div>
       <MapContainer
         center={[37.7749, -122.4194]}
