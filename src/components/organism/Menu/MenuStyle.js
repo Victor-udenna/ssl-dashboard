@@ -27,7 +27,7 @@ const MenuStyle = styled.div`
 
   .menu-categories {
     display: flex;
-    gap: 15px;
+    gap: 24px;
   }
 
   .category {
@@ -149,6 +149,11 @@ const MenuStyle = styled.div`
       span {
         font-size: 12px;
       }
+    }
+
+    .menu-categories {
+      display: flex;
+      gap: 15px;
     }
 
     .menu-special {
