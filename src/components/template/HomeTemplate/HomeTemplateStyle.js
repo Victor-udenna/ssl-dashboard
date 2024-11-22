@@ -9,6 +9,11 @@ const HomeTemplateStyle = styled.div`
   .dashboard {
     background-color: ${Colors.neutral};
     overflow: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
 
   .main-content {
